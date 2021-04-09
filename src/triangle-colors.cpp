@@ -96,9 +96,9 @@ int main(int argc, char** argv)
 
    const float colors[] =
    {
-        0.0f, 0.0f, 1.0f,
-        1.0f, 0.0f, 0.0f,
-        0.0f, 1.0f, 0.0f
+        1.0f, 0.0f, 1.0f,
+        0.0f, 1.0f, 1.0f,
+        1.0f, 1.0f, 0.0f
    };
 
    GLuint vboPosId;

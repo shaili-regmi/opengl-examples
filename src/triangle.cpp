@@ -19,7 +19,7 @@ const GLchar* fragmentShader[] =
 {
 "#version 400\n"
 "out vec4 FragColor;"
-"void main() { FragColor = vec4(0.0, 0.0, 1.0, 1.0); }"
+"void main() { FragColor = vec4(0.0, 1.0, 0.0, 1.0); }"
 };
 
 
@@ -135,7 +135,7 @@ int main(int argc, char** argv)
    }
 
    glUseProgram(shaderId);
-   glClearColor(0, 0, 0, 1);
+   glClearColor(1, 1, 1, 1);
 
    // Loop until the user closes the window 
    while (!glfwWindowShouldClose(window))
