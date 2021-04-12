@@ -162,6 +162,8 @@ int main(int argc, char** argv)
    //glm::mat4 projection = glm::perspective(60.0, 1.0, 0.1, 10.0);
    glm::mat4 projection = glm::ortho(-1.0f, 1.0f, -1.0f, 1.0f, -2.0f, 2.0f);
    glm::mat4 camera = glm::lookAt(glm::vec3(0,0,1), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));
+   
+   // change lookAt to animate camera
 
    glClearColor(0, 0, 0, 1);
 

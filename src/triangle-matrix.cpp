@@ -192,7 +192,7 @@ int main(int argc, char** argv)
       glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Clear the buffers
 
       // Update positions
-      float dx = 1.0 * sin(glfwGetTime());
+      float dx = 0.1 * sin(glfwGetTime());
       glm::mat4 T = glm::translate(glm::mat4(1.0), glm::vec3(dx, 0.0f, 0.0f));
       for (int i = 0; i < 9; i+=3)
       {

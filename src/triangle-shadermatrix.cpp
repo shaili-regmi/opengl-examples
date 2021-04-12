@@ -1,5 +1,5 @@
 // Bryn Mawr College, alinen, 2020
-//
+// updating posiitons in gpu instead of cpu like in traingle-matrix
 
 #include "AGL.h"
 #include "AGLM.h"
